@@ -46,7 +46,8 @@ export default function Rates() {
                     1 EUR = {JSON.stringify(gbp)} GBP<br/>
                     1 EUR = {JSON.stringify(cny)} CNY<br/>
                     1 EUR = {JSON.stringify(jpy)} JPY<br/>
-                </div>
+                </div> <br/>
+               
                 <div className='form'>
                 <form onSubmit={fetchData}>
                 <input type="number" value={eur} onChange={e => setEur(e.target.value)}/> EUR = <br/>
